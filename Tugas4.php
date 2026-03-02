@@ -6,7 +6,7 @@ class nilai{
     public $nilai;
     public $status;
     public function status($nilai){
-        if($nilai <= 60){
+        if($nilai >= 60){
             return "lulus";
         }else{
             return "tidak lulus";
@@ -36,3 +36,4 @@ class nilai{
 $nil->status($nil->nilai[$x]). "<br><br>";
  }
  ?>
+
